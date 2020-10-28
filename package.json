@@ -1,0 +1,11 @@
+{
+  "name": "@gleaning/check",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:zangxd/check.git",
+  "author": "zangchuqiang <zangchuqiang@chengfayun.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.0.5"
+  }
+}
