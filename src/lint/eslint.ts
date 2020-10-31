@@ -1,6 +1,7 @@
-const rules = require("./_rules");
-const overrides = require("./_overrides");
-module.exports = {
+import rules from "./_rules";
+import overrides from "./_overrides";
+
+export default {
   root: true,
   parser: "@typescript-eslint/parser",
   parserOptions: {

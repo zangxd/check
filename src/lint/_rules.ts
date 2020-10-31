@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   "react/prop-types": 0,
   "react/no-children-prop": 0,
   "class-methods-use-this": 0,

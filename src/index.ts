@@ -16,3 +16,6 @@ command("clean").description("Clean all dist files").action(clean);
 command("commit-lint").description("Lint commit message").action(commitLint);
 
 parse();
+
+export * from "./lint/eslint";
+export * from "./lint/prettier";
