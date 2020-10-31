@@ -1,20 +1,30 @@
 {
   "name": "@gleaning/check",
   "version": "1.0.0",
-  "main": "index.js",
-  "repository": "git@github.com:zangxd/check.git",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "repository": "git@github.com:gleaning/check.git",
   "license": "MIT",
   "bin": {
-    "gleaning": "./lib/index.js"
+    "glean": "./lib/index.js"
   },
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "files": [
+    "lib"
+  ],
   "devDependencies": {
     "@types/node": "^14.14.6",
     "typescript": "^4.0.5"
   },
   "dependencies": {
+    "@types/fs-extra": "^9.0.2",
     "@typescript-eslint/eslint-plugin": "^4.6.0",
     "@typescript-eslint/parser": "^4.6.0",
     "commander": "^6.2.0",
+    "consola": "^2.15.0",
     "eslint": "^7.12.1",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-config-prettier": "^6.15.0",
@@ -23,6 +33,7 @@
     "eslint-plugin-prettier": "^3.1.4",
     "execa": "^4.1.0",
     "fs-extra": "^9.0.1",
+    "ora": "^5.1.0",
     "prettier": "^2.1.2"
   }
 }
