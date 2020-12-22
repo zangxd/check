@@ -1,9 +1,9 @@
 {
-  "name": "@gleaning/check",
+  "name": "@gleaning/lint",
   "version": "1.0.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
-  "repository": "git@github.com:gleaning/check.git",
+  "repository": "git@github.com:gleaning/lint.git",
   "license": "MIT",
   "bin": {
     "glean": "./lib/index.js"
